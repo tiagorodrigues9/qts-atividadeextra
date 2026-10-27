@@ -4,7 +4,7 @@ Atividade prática comparando endpoints vulneráveis e seguros contra falhas do 
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Python** (gerenciado com `uv`)
 - **FastAPI**
@@ -13,7 +13,7 @@ Atividade prática comparando endpoints vulneráveis e seguros contra falhas do 
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### 1. Instalar Dependências
 ```bash
@@ -33,7 +33,7 @@ uv run pytest -v
 
 ---
 
-## 🛡️ Cenários Implementados
+## Cenários Implementados
 
 | Tipo de Falha | Rota Vulnerável | Rota Segura (Mitigação) | Defesa Utilizada |
 |---|---|---|---|
@@ -44,7 +44,7 @@ uv run pytest -v
 
 ---
 
-## 🧪 Estrutura dos Testes
+## Estrutura dos Testes
 
 Os testes em [`tests/test_seguranca.py`](tests/test_seguranca.py) seguem o padrão **AAA (Arrange, Act, Assert)** e a anotação `@pytest.mark.security`:
 - **4 testes ofensivos:** comprovam que as rotas vulneráveis aceitam injeções e ataques.
